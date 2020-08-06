@@ -24,7 +24,7 @@ def message(message):
 
 startup()
 name = getuser()
-#lol
+
 for event in longpoll.listen():
     if event.type == VkEventType.MESSAGE_NEW and event.to_me and event.text:
         if event.text == name + ' 16080305':
