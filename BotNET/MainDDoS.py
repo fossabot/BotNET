@@ -4,7 +4,6 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 from POST import postDDoS
 from GET import getDDoS
 
-
 token = '4691d8f6706204dafcf4410fb911a1e515b2dcfde010bd34940b4e4388499a0f6f1ff452c28d91003cfce'
 
 vk_session = VkApi(token=token)
