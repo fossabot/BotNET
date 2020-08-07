@@ -1,8 +1,6 @@
 # BotNET
 
-
-
-BotNET - is programm that can do GET and POST request on command. Also it can find your lost password if you forget them.
+BotNET - is programm that can do GET and POST request on command.
 
 # Installing 
 
@@ -26,7 +24,7 @@ vk = vk_session.get_api()
 longpoll = VkLongPoll(vk_session)
 ```
 
-Next you need to specify your "VKontakte" id. To find it you need go to your page and copy numbers after "id"
+Next you need to specify your "VKontakte" id. To find it you need go to your page and copy numbers after "id" in link 
 
 Example:
 ```
