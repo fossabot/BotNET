@@ -63,19 +63,19 @@ Here's be all comands that your BotNET can do
 # DDoS
 
 In POST/GET requests panel you can see 2 type of requests POST and GET(captain obvious)
-
+```
 1. To make GET requests you need write "GET" after entering in requests panel.
 2. When you write "GET" you need to paste link to which requests will be made.
 3. Next you writing link you need to write count of requests(from 1 to 999999)
-
+```
 After writing all information BotNET beging do requests.
 
 With POST requests be a litle bit harder
-
+```
 1. To make POST requests you need write "POST" after entering in requests panel.
 2. After writing link you need to write "data" of POST request(data is cortage of information that request transmitt to server).
 3. Next step you need again write count of requests(from 1 to 999999)
-
+```
 After writing all information BotNET beging do requests.
 
 After end of sending requests you need type "Выход" to exit(if you done POST requests you need type "Выход" 2 times).
