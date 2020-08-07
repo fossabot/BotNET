@@ -10,7 +10,6 @@ To use BotNET you need to install next libraries:
 ```
 vk_api
 requests
-shutil
 getuser
 ```
 
