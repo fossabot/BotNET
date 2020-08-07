@@ -57,12 +57,9 @@ Reeuds 16080305
 When you write your username + password community write you that you logined in and you can use commands.
 
 # Commands
-```
-DDoS - enter in POST/GET requests panel
-Check - checks that new users download your BotNET(if someone run BotNET and you write "Check" there is be message that new user run your app)
-online - writes all users who are running your BotNET
-Username + steal - search passwords on Username's computer
-```
+
+Here's be all comands that your BotNET can do
+
 # DDoS
 
 In POST/GET requests panel you can see 2 type of requests POST and GET(captain obvious)
@@ -82,6 +79,21 @@ With POST requests be a litle bit harder
 After writing all information BotNET beging do requests.
 
 After end of sending requests you need type "Выход" to exit(if you done POST requests you need type "Выход" 2 times).
+
+# Check 
+
+Where you type "Check" to your BotNET him check for new users that now have runned BotNET.
+
+What it meens?
+
+You user and you logined as admin. When you type "Check" all other users become online.
+When you enter in requests panel other users enter in it too. If you begin sending requests as admin, all other users negin it too.
+
+# online 
+
+That's very easy.
+
+When you type "online" to you community - all users who have runned BotNET right now is shown you
 
 
         
