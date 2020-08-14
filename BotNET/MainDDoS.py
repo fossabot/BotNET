@@ -120,6 +120,7 @@ def mainDDoS():
                                                         break
     except:
         message('Произошла ошибка.')
+        pass
 
 
 
