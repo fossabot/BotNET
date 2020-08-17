@@ -1,4 +1,6 @@
 # BotNET
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FReedus0%2FBotNET.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FReedus0%2FBotNET?ref=badge_shield)
+
 
 BotNET - is programm that can do GET and POST request on command.
 
@@ -100,3 +102,7 @@ When you type "online" to you community - all users who have runned BotNET right
 
 
         
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FReedus0%2FBotNET.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FReedus0%2FBotNET?ref=badge_large)
